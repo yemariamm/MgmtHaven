@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fillViewport="true"
+android:orientation="vertical"
+android:scrollbarAlwaysDrawVerticalTrack="true"
+android:weightSum="1">
+
+
+<Button
+    android:id="@+id/exit2"
+    style="?android:attr/borderlessButtonStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:text="x"
+    android:textColor="#595757"
+    android:textSize="25dp" />
+
+
+
+<TextView
+    android:id="@+id/textView20"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:text="@string/termsandcond"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="#595757" />
+
+<TextView
+    android:id="@+id/textView25"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:text="@string/pleaseview"
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+<TextView
+    android:id="@+id/agree"
+    android:layout_width="285dp"
+    android:layout_height="293dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_weight="0.48"
+    android:text="@string/agreement" />
+
+<Button
+    android:id="@+id/agreed"
+    android:layout_width="149dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:background="#93cd5e"
+    android:onClick="agreemethod"
+    android:text="I AGREE"
+    android:textColor="#ffffff" />
+
+    </LinearLayout>
+    </ScrollView>

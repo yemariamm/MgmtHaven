@@ -1,0 +1,196 @@
+<resources>
+    <string name="app_name">MgmtHaven</string>
+    <string name="action_settings">Settings</string>
+    <string name="homep">Home Password</string>
+    <string name="home">Home</string>
+    <string name="fpw">Forgot Password</string>
+    <string name="password">PASSWORD</string>
+    <string name="close">x</string>
+    <string name="reset">RESET PASSWORD</string>
+    <string name="email">EMAIL</string>
+    <string name="x">x</string>
+    <string name="propertyo">Property Overview</string>
+    <string name="mainstreet"> 123 Main Street </string>
+    <string name="paymnets">Payments</string>
+    <string name="maintenancer">MAINTENANCE REQUEST</string>
+    <string name="messages">Messages</string>
+    <string name= "enter">enter email  associated with your account above</string>
+    <string name="incoRev">Add Incoming Revenues</string>
+    <string name="propA">PROPERTY ADDRESS</string>
+    <string name="leaseSD">LEASE START DATE</string>
+    <string name="skip">skip this step</string>
+    <string name="leaseStart">LEASE START DATE</string>
+    <string name="leaseEnd">LEASE END DATE</string>
+    <string name="mPayment">MONTHLY PAYMENT AMOUNT</string>
+    <string name="addInco">ADDITIONAL INCOME</string>
+    <string name="next">NEXT</string>
+    <string name="tpwsent">TEMPORARY PASSWORD SENT</string>
+    <string name="npw">NEW PASSWORD</string>
+    <string name="renpw">RE-ENETER NEW PASSWORD</string>
+    <string name="cnpw">CONFIRM NEW PASSWORD</string>
+    <string name="propowner">Property Owner</string>
+    <string name="renter"> Renter</string>
+    <string name="connect"> Connect to Property Landlord</string>
+    <string name="name">Name</string>
+    <string name="submit">Submit</string>
+    <string name="mobilenum">MOBILE NUMBER</string>
+    <string name="prefemail">PREFERRED EMAIL</string>
+    <string name ="discrib">What best describes you?</string>
+    <string name="record">RECORD KEEPING</string>
+    <string name="archive">Archive</string>
+    <string name="proincome">Projected Income</string>
+    <string name="expenses">Expenses</string>
+    <string name="profit">Profit</string>
+    <string name="recent">Recent</string>
+    <string name="export">Export Records</string>
+    <string name="category">CATEGORY</string>
+    <string name="modelnum">MODEL NUMBER</string>
+    <string name="amount">AMOUNT</string>
+    <string name="store">STORE/PROVIDER</string>
+    <string name="warranty">WARRANTY ?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="add">ADD</string>
+    <string name="photo">PHOTO OF RECEIPT/WARRANTY</string>
+    <string name="datepurch">DATE of PURCHASE</string>
+    <string name="save">SAVE</string>
+    <string name="NAME">NAME</string>
+    <string name="mess">Messaging</string>
+    <string name="notes">NOTES</string>
+    <string name="work">WORK REQUESTED</string>
+    <string name="rooms">ROOMS</string>
+    <string name="com">Complete the required fields</string>
+    <string name="accts">ACCOUNT SETTINGS</string>
+    <string name="start">START</string>
+    <string name="end">END</string>
+    <string name="comp">COMPLETE</string>
+    <string name= "termsandcond">TERMS CONFIRMATION</string>
+
+    <string name ="progress">IN-PROGRESS</string>
+    <string name="yrs">YEARS LEFT</string>
+
+
+    <string name ="Home">HOME</string>
+    <string name ="ad">456 Chester Pl,</string>
+    <string name ="adt">Washington, DC 20017</string>
+
+    <string name ="addr">123 Walnut Grove </string>
+    <string name ="addres">Washington, DC 20016</string>
+
+    <string name="tenants">Tenants</string>
+
+    <string name="bill">Billy Chin</string>
+    <string name="bille">billy.chin@gmail.com</string>
+    <string name="billn">202-555-9834</string>
+
+    <string name="lisa">Lisa Fields</string>
+    <string name="lisae">lisa.fields@gmail.com</string>
+    <string name="lisan">202-887-8990</string>
+
+
+    <string name="linked">Linked</string>
+    <string name="delete">Delete</string>
+
+    <string name="tenantsinfo">TENANTS CONTACT INFORMATION</string>
+
+    <string name= "pleaseview"> Please review terms and conditions</string>
+    <string-array name= "rtitles">
+        <item>Messages </item>
+        <item>Maintenance Request </item>
+        <item>Payments </item>
+    </string-array>
+
+    <string-array name= "cusnames">
+        <item>Billy Chin </item>
+        <item>Lisa Fields </item>
+        <item>John Doe </item>
+    </string-array>
+
+    <string-array name= "rec">
+        <item>Washing Machine  </item>
+        <item>Water Heater </item>
+        <item>Stove/Oven</item>
+    </string-array>
+
+    <string-array name= "nums">
+        <item>4 </item>
+        <item>6 </item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name= "ltitles">
+        <item>Messages </item>
+        <item>Maintenance Request </item>
+        <item>Payments </item>
+        <item>Record Keeping</item>
+    </string-array>
+
+    <string-array name="rvac">
+        <item> VIEW/MODIFY PASSWORD</item>
+        <item>PROPERTY LINK </item>
+
+    </string-array>
+
+    <string-array name="lvac">
+        <item> VIEW/MODIFY PASSWORD</item>
+        <item>MANAGE PROPERTY</item>
+    </string-array>
+
+
+
+    <string name= "agreement"> Contractual Relationship\nThis mobile application (the "application") is operated by MgmtHaven LLC ("MgmtHaven") and its affiliates. These Terms of Use ("Terms") pertain to the access or use by you, an individual, from within the United States and its territories and possessions of applications, websites, content, products, and services. Please read the terms of use carefully before using the applications, and services developed by MgmtHaven. Your access and use validates that you agree to the terms of use presented by MgmtHaven. If you do not agree to the terms of use, you cannot access the application or utilize the services of MgmtHaven. MgmtHaven withholds the right to amend these terms at any time. Amendments will be effective upon MgmtHaven posting an updated version of such at this location or at an applicable location. Our collection and use of personal information can be found below
+\nThe Services\nServices includes the mobile platform that enables users to access applications provides by MgmtHaven and its affiliates to manage real estate. Unless authorized by MgmtHaven in a separate written agreement with you, the services are available solely for your personal non-commercial use. You acknowledge the MgmtHaven is not a property management firm, and does not take on the responsibility of managing properties for a company or individual.
+\nThe License\nSubject to your compliance with the terms of use, MgmtHaven grants you a limited, non-exclusive, non-revocable, non-transferable license to access our application on your personal mobile device.\nThe Ownership
+\nThe Services and all rights therein are an shall remain property of MgmtHaven. The terms of use does not grant you any rights external of the limited use mentioned above. The use of MgmtHaven\'s logo, data, product or services names is prohibited without a written agreement from MgmtHaven.
+\nUser Accounts
+\nIn order to use most aspects of the Services, you must register for and maintain an active personal user Services account ("Account"). Account registration requires you to submit to MgmtHaven certain personal information, such as your name, address, mobile phone number, and properties owned. You are responsible for all activity that occurs under your Account, and you agree to maintain the security and secrecy of your Account username and password at all times. Unless otherwise permitted by Uber in writing, you may only possess one Account
+\nThe Data
+\nMgmtHaven collects information you provide directly to us, such as when you create or modify your account, contact customer support, or otherwise communicate with us. This information may include: name, email, phone number, address, profile picture, payment method, warranty information, purchase receipts and invoices, delivery notes, and other information you choose to provide. We may also collect information about your mobile device, such as the hardware model, operating system and version, software and file names and versions, preferred language, unique device identifier, advertising identifiers, serial number, device motion information, and mobile network information. Your information may be used to communicate items that we think will be of interest to you, including information about products, services, promotions, news, and events of MgmtHaven and other companies, where permissible and according to local applicable laws.    </string>
+    <string-array name="mcat">
+        <item>Appliance</item>
+        <item>Carpentry</item>
+        <item>Ceiling</item>
+        <item>Door</item>
+        <item>Electrical</item>
+        <item>Flooring</item>
+        <item>Furniture</item>
+        <item>Heat Ventilation AC</item>
+        <item>Items Needed</item>
+        <item>Other</item>
+        <item>Paint</item>
+        <item>Pest Control</item>
+        <item>Plumbing</item>
+        <item>Recycle</item>
+        <item>Roof</item>
+        <item>Security</item>
+        <item>Snow Removal/Ice</item>
+        <item>Trash</item>
+        <item>Window</item>
+
+    </string-array>
+
+    <string-array name="wreq">
+        <item>Attic</item>
+        <item>Basement</item>
+        <item>Bathroom</item>
+        <item>Bedroom</item>
+        <item>Deck</item>
+        <item>Dining Room</item>
+        <item>Exterior</item>
+        <item>Garage</item>
+        <item>General</item>
+        <item>Grounds</item>
+        <item>Kitchen</item>
+        <item>Living Room</item>
+        <item>Porch</item>
+
+    </string-array>
+
+    <string-array name="cat">
+        <item>Item</item>
+        <item>Service</item>
+    </string-array>
+
+
+
+</resources>

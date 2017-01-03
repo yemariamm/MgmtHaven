@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/tenantsinfo"
+        android:id="@+id/textView69"
+        android:layout_marginTop="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView71"
+        android:layout_toEndOf="@+id/textView71"
+        android:textColor="#595757" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/bill"
+        android:id="@+id/textView71"
+        android:layout_below="@+id/textView69"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp"
+        android:textColor="#595757" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/bille"
+        android:id="@+id/textView72"
+        android:layout_below="@+id/textView71"
+        android:layout_alignLeft="@+id/textView71"
+        android:layout_alignStart="@+id/textView71"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:textColor="#595757" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/billn"
+        android:id="@+id/textView73"
+        android:layout_below="@+id/textView72"
+        android:layout_alignLeft="@+id/textView72"
+        android:layout_alignStart="@+id/textView72"
+        android:textColor="#595757" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/lisa"
+        android:id="@+id/textView74"
+        android:layout_below="@+id/textView73"
+        android:layout_alignLeft="@+id/textView71"
+        android:layout_alignStart="@+id/textView71"
+        android:layout_marginTop="28dp"
+        android:textColor="#595757" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/lisae"
+        android:id="@+id/textView75"
+        android:layout_below="@+id/textView74"
+        android:layout_alignLeft="@+id/textView73"
+        android:layout_alignStart="@+id/textView73"
+        android:textColor="#595757" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/lisan"
+        android:id="@+id/textView76"
+        android:layout_below="@+id/textView75"
+        android:layout_alignLeft="@+id/textView75"
+        android:layout_alignStart="@+id/textView75"
+        android:textColor="#595757" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/accts"
+        android:id="@+id/textView77"
+        android:layout_alignBottom="@+id/imageButton2"
+        android:layout_centerHorizontal="true"
+        android:textColor="#595757" />
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/arrowl"
+        android:background="#caffffff"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView62"
+        android:layout_alignStart="@+id/textView62" />
+
+</RelativeLayout>

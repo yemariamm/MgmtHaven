@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/discrib"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#595757" />
+
+    <Button
+        android:id="@+id/ownerB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView19"
+        android:layout_alignLeft="@+id/textView19"
+        android:layout_alignRight="@+id/textView19"
+        android:layout_alignStart="@+id/textView19"
+        android:layout_below="@+id/textView19"
+        android:background="@drawable/buttonborder"
+        android:longClickable="false"
+        android:onClick="onButtonClick"
+        android:text="@string/propowner"
+        android:textColor="#595757" />
+
+    <Button
+        android:id="@+id/renterB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ownerB"
+        android:layout_alignLeft="@+id/ownerB"
+        android:layout_alignRight="@+id/ownerB"
+        android:layout_alignStart="@+id/ownerB"
+        android:layout_below="@+id/ownerB"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonborder"
+        android:longClickable="false"
+        android:onClick="onButtonClick"
+        android:text="@string/renter"
+        android:textColor="#595757" />
+
+
+</RelativeLayout>

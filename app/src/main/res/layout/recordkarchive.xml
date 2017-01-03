@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/record"
+        android:id="@+id/textView81"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recent"
+        android:id="@+id/recentb"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_below="@+id/textView81"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp"
+        android:textColor="#595757"
+        android:onClick="matrec" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/archive"
+        android:id="@+id/archiveb"
+        android:background="@drawable/buttonborder"
+        android:layout_alignBottom="@+id/recentb"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="57dp"
+        android:layout_marginEnd="57dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#595757"
+        android:onClick="mrtabs" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView8"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/recentb" />
+
+
+</RelativeLayout>

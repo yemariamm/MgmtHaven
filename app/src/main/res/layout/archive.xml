@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="?android:attr/borderlessButtonStyle">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/maintenancer"
+        android:id="@+id/textView37"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:textColor="#595757" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recent"
+        android:id="@+id/recentb"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_below="@+id/textView37"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp"
+        android:textColor="#595757"
+        android:onClick="matrec" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/archive"
+        android:id="@+id/archiveb"
+        android:background="@drawable/buttonborder"
+        android:layout_alignBottom="@+id/recentb"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="57dp"
+        android:layout_marginEnd="57dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#595757"
+        android:onClick="mrtabs" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/export"
+        android:id="@+id/button6"
+        android:background="#93cd5e"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageView6"
+        android:layout_alignStart="@+id/imageView6"
+        android:layout_marginBottom="42dp"
+        android:layout_alignRight="@+id/addmain"
+        android:layout_alignEnd="@+id/addmain" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/plus"
+        android:background="#04ffffff"
+        android:id="@+id/addmain"
+        android:layout_above="@+id/button6"
+        android:layout_toRightOf="@+id/imageView6"
+        android:layout_toEndOf="@+id/imageView6"
+        android:layout_marginBottom="28dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:layout_below="@+id/recentb"
+        android:layout_alignLeft="@+id/recentb"
+        android:layout_alignStart="@+id/recentb"
+        android:src="@drawable/text5"
+        android:layout_alignRight="@+id/archiveb"
+        android:layout_alignEnd="@+id/archiveb"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:src="@drawable/text4"
+        android:layout_above="@+id/addmain"
+        android:layout_alignLeft="@+id/imageView6"
+        android:layout_alignStart="@+id/imageView6"
+        android:layout_alignEnd="@+id/archiveb"
+        android:layout_alignRight="@+id/archiveb"
+
+        />
+
+</RelativeLayout>

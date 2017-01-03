@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:id="@+id/backacct"
+        android:src="@drawable/arrowl"
+        android:layout_marginTop="34dp"
+        android:background="#03ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/textView60"
+        android:layout_toStartOf="@+id/textView60"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp"
+        android:onClick="acctsettb" />
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/accts"
+        android:id="@+id/textView60"
+        android:layout_alignBottom="@+id/backacct"
+        android:layout_centerHorizontal="true"
+        android:textColor="#595757" />
+
+    <ListView
+
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView3"
+        android:divider="#595757"
+        android:dividerHeight="3.0sp"
+        android:layout_below="@+id/textView60"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp" />
+</RelativeLayout>

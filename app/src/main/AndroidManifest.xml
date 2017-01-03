@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mariammamo.mgmthaven">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name =".signUp" ></activity>
+        <activity android:name =".ownerorRenter"></activity>
+        <activity android:name =".addProp"></activity>
+        <activity android:name =".addProp2"></activity>
+        <activity android:name=".conectLL"></activity>
+        <activity android:name=".mPage"></activity>
+        <activity android:name=".renterHp"></activity>
+        <activity android:name=".maintenanceR"></activity>
+        <activity android:name=".maintenanceR2"></activity>
+        <activity android:name=".recordKeeping"></activity>
+        <activity android:name=".recordKeeping2"></activity>
+        <activity android:name=".LaccountSetting"></activity>
+        <activity android:name=".incomingRev"></activity>
+        <activity android:name=".Archive"></activity>
+        <activity android:name=".llAcctsetting2"></activity>
+        <activity android:name=".tenantsInfo"></activity>
+        <activity android:name=".recArchive"></activity>
+
+    </application>
+
+</manifest>
